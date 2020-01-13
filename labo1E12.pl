@@ -29,16 +29,23 @@ sexo('Ana', femenino).
 sexo('Elsa', femenino).
 sexo('Sara', femenino).
 
-ama('Carlos', 'María').
-ama('María', 'Carlos').
 ama('Roberto', 'Sara').
 ama('Sara', 'Roberto').
 ama('Irving', 'Ana').
 ama('Ana', 'Irving').
 ama('Romeo', 'Carmen').
 ama('Carmen', 'Romeo').
+ama('Carlos', 'María').
+ama('María', 'Carlos').
+%Amores platónicos de Carlos xd:
+ama('Carlos', 'Karla').
+ama('Carlos', 'Elsa').
+ama('Carlos', 'Sara').
+%Relaciones imposibles al ser del mismo género:
 ama('Javier', 'Romeo').
 ama('Romeo', 'Javier').
+ama('Flor', 'Rocío').
+ama('Rocío', 'Flor').
 
 se_pueden_casar(Pareja1,Pareja2):-
   sexo(Pareja1, SexoP1),
